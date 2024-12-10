@@ -3,6 +3,8 @@
 #include "stack.h"
 #include <string.h>
 
+printf("Hello!! this is my assignment!\n");
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
